@@ -9,6 +9,9 @@ product, do not publish.
 3. Create a pipeline for the above tasks.
 4. Create a container with Ubuntu and apache installed in it and use that container to
 build the code and the code should be on ‘/var/www/html’.
+
+
+
 Dockerfile****
 FROM ubuntu:20.04
 RUN apt-get update && \
